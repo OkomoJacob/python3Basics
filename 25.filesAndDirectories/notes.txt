@@ -1,0 +1,1 @@
+we can use glob method in Path to iterate through a dir and serach files and automatically process them as shown in the access_files_and_process.py in the pwd
