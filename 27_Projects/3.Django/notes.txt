@@ -1,0 +1,58 @@
+Django web
+==========
+Django Framework is for perfectionists
+Techies using Django include:
+	1)Instagram
+	2)Youtube
+	3)Spotify
+	4)The washington posts
+	5)Bitbucket
+	6)Drop box
+	7)Mozilla
+	8)Udemy
+	9)Reddit
+	10)Pinterest
+
+A framework is a library of re usable modules(Bulding blocks)
+https requtsts, request, response
+
+Defines a structure for our applications
+
+wsgi: 
+	Web server get interface- to provide a statd interface to those websites/ apps bulit in Django
+apps: 
+	To store various configurations for the django app
+	
+
+Django organizes your project into multiple django apps
+The moment you craete new views and urls, the beautiful default django homepage disappers.
+2. Models: 
+	A representation of real world concepts e.g in a jumia shop we  have models like:
+		Orders
+		customers, 
+		reviews, 
+		shopping carts, 
+		deliveries etc
+
+we'll modify Models eg by craetions, deletions etc	
+
+3. Python manage.py makemigrations: use db.sqlite3 to create and manage your databases in your migrations
+Python3 manage.py migrate: To allow django to run through all pending migrations(dbs) and make any neccessary apps
+
+4. Admin: By default django admin is installed but with no user. So craete the first super user as below;
+	python manage.py createsuperuser
+5. Customizing Admin area:
+	 in the admin.py, create a new class called e.g class ProductAdmin(admin.ModelAdmin)
+to add our offers and prdcts in the admin area, we edit the admin.py
+
+6. Templates:import the prdcts class from the models to create custom html views
+	{% %} Template tag: To dynamically execute logic e.g for loops and if stsmnts to dynamically render content
+	{{  }}: Double template tags to dynamically render values in our html markup.
+7.Adding bootstrap:
+	
+
+
+
+
+
+	
