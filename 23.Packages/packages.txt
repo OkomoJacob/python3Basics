@@ -1,0 +1,2 @@
+# A package is a container(directory or folder) for multiple (related) modules
+to convert a directory into a package, add an __init__.py in it and save
