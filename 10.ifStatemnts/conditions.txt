@@ -1,0 +1,13 @@
+if temperature is greater than 30
+    its a hot day
+otherwise if it's less than 10
+    it's a cold day
+otherwise it's neither hot nor cold.
+
+if name is less than 3
+    short name
+else if name  > 50:
+    long name
+else
+    looks good
+
