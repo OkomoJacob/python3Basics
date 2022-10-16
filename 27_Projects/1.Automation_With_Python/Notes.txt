@@ -1,0 +1,21 @@
+Process spreadsheets with hundreds of thousands of spreadsheets that needs to be update
+For example
+Create a for loop to iterate through the sheet and access the price column and multiply by 0.9 to obtain 10% of the value
+
+
+Sheet Methods
+=============
+1.To print the id of the attribute
+cell = sheet.cell(1, 1)
+print(cell.value)
+cell = sheet['a1']
+# Or similarly
+2.To get the number of rows in te sheet
+print(sheet.max_row)
+'''
+# Accessing a prticular cell from the numerous cells in the excel sheet
+cell = sheet['a1']
+cell = sheet.cell(2, 3)
+print(cell.value)
+
+-read more about charts e.g change color, legends, etc in official openpyxl documentation
