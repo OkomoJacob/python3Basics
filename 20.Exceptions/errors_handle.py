@@ -7,9 +7,6 @@ try:
     print(age)
 except ValueError: #Catch the error
     print('Invalid input, Integers only')
-
-
-
 try:
     age = int(input('Enter age: '))
     income = 300
@@ -17,4 +14,3 @@ try:
     
 except ZeroDivisionError: #Catch the error
     print('Invalid input, Cannot divide number by Zero')
-
