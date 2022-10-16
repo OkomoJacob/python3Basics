@@ -1,11 +1,9 @@
 import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
 
-
 wb = xl.load_workbook('transactions.xlsx')
 
 sheet = wb['Sheet1']
-
 
 # A for loop to iterate through the sheet rows from top to down
 for row in range(2, sheet.max_row + 1): # + 1 since range ruturns till the last number minus 1 e.g range(1, 3) returns 1, 2
@@ -29,6 +27,4 @@ chart.add_data(valus)
 # Add the chart to our sheet
 sheet.add_chart(chart, 'e2')
 
-
 wb.save('transactions.xlsx')
-
