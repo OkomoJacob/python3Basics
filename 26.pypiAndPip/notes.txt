@@ -1,0 +1,8 @@
+Pypi: Python Package Index is adirectory online (https://pypi.org) where Mosh and many pydevs have published and packaged 
+go and search key word e.g SMS for the package you want
+google search engine uses webscrapping technique, check it out
+selenium is a very powerfull web testing python package to check on loopholes for pentesters and keep website safe
+
+how to install packages from pypi:
+1.on pypi.org, search for a pckge name e.g openpyxl(for working with excels and spreadsheets for e.g)
+2.select it and get the pip install command
